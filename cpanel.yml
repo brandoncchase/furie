@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/furstays/public_html/furie/git
+    - /bin/cp -R * $DEPLOYPATH
